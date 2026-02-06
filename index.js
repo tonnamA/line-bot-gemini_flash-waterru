@@ -8,7 +8,7 @@ const app = express();
 // ==========================================
 const PORT = process.env.PORT || 3000;
 const LINE_CHANNEL_ACCESS_TOKEN = '0EMq56jluzhgD6gnb+mwa2o2FONLkAIe2Dn6md1bWifdZSS1KL2lQnxBjKmH+IOq4Z1P5gBlesDXmXomQNCu/cQxmY06szlmA1nJO8AZmH5GpdR8EYg3zrixLDiA6RxWkEwe0R8y4BT4eo4CMYe3CwdB04t89/1O/w1cDnyilFU='; 
-const GEMINI_API_KEY = 'AIzaSyAkwmrcn1SsvfpGucRd4kqOqlslzZ2d8fo'; // <--- ใส่ Key ตรงนี้
+const GEMINI_API_KEY = 'AIzaSyAUyJNLbcUrLe1MU4SzXBmUJMCJkveyEHA'; // <--- ใส่ Key ตรงนี้
 const BOT_NAME = 'Waterru';     // ชื่อบอท
 // ==========================================
 
