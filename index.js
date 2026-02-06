@@ -15,8 +15,7 @@ const BOT_NAME = 'Waterru';     // ชื่อบอท
 // ตั้งค่า Gemini
 const genAI = new GoogleGenerativeAI(GEMINI_API_KEY);
 // ใช้รุ่น gemini-1.5-flash (เร็วและฟรี)
-const model = genAI.getGenerativeModel({ model: "gemini-1.5-flash" });
-
+const model = genAI.getGenerativeModel({ model: "gemini-3.0-flash" });
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
